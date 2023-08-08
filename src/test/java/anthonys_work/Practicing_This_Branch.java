@@ -12,6 +12,7 @@ import utilities.Keywords;
 public class Practicing_This_Branch {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		WebDriver driver = new ChromeDriver();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--disable-blink-features");
@@ -27,6 +28,13 @@ public class Practicing_This_Branch {
 			Actions action1 = new Actions(driver);
 			WebElement subMenu = driver.findElement(By.xpath("//*[@id='5']/a"));
 			action1.moveToElement(subMenu).perform();
+=======
+//hello if you are reading this!
+//just wanted to see if i made this master branch correctly and no errors hopefully
+		//new change
+		//Thank you so much for your dedication!!!  It's perfecto!!! *.*
+	}
+>>>>>>> main
 
 			driver.findElement(By.linkText("Computers")).click();
 			driver.findElement(By.xpath("//*[@id='navpills-sizing']/a[1]")).click();
