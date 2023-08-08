@@ -33,7 +33,7 @@ public class Practicing_This_Branch {
 			// driver.findElement(By.xpath("//*[@id='addbutton-0']")).click();
 			driver.findElement(By.xpath(MacBookProM2_16inch)).click();
 			WebElement multiClick = driver.findElement(By.xpath("//*[@id='plusQty']"));
-			int clickCount = 3;
+			int clickCount = 2;
 			for (int i = 1; i < clickCount; i++) {
 				multiClick.click();
 				Keywords.wait(2);
