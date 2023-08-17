@@ -8,8 +8,8 @@ public class HomePractice {
 
 	public static void main(String[] args) {
 
-		String email = "anth0ny@gmail.com";
-		String password = "PaSsWoRd123!";
+		String email = "krystal.lee.om.gmail.com";
+		String password = "123456";
 		String homePage = "//*[@href='/']";
 		String experienceLink = "//*[@href='/add-experience']";
 		String educationLink = "//*[@href='/add-education']";
