@@ -10,7 +10,7 @@ public class lena_Add_in_shopping_cart {
 
 	public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
-		int time = 3;
+		int time = 4;
 		try {
 			driver.get("https://www.costco.com/");
 			// TV
@@ -22,17 +22,17 @@ public class lena_Add_in_shopping_cart {
 			Keywords.wait(3);
 
 			// validation
-			String actuallNumber = driver.findElement(By.xpath("//input[@id='value-3']")).getText();
+			String actualNumber = driver.findElement(By.xpath("//*[@id='value-3']")).getAttribute("value");
 
-			System.out.println(actuallNumber);
-//
-//			int actualNum = Integer.parseInt(actuallNumber);
-//			System.out.println(actualNum);
+			System.out.println(actualNumber);
 
-//			if (time != actualNum) {
-//
-//				System.out.println("wrong item amount" + "actual items: " + actualNum + "Expected items: " + time);
-//			}
+			int actualNum = Integer.parseInt(actualNumber);
+			System.out.println(actualNum);
+
+			if (time != actualNum) {
+
+				System.out.println("wrong item amount" + "actual items: " + actualNum + "Expected items: " + time);
+			}
 
 			System.out.println("test passed");
 		} catch (Exception e) {
