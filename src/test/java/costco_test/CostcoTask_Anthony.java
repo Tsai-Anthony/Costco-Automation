@@ -57,5 +57,6 @@ public class CostcoTask_Anthony extends BaseTest {
 		wait.until(ExpectedConditions.textToBe(header_cartNumber, String.valueOf(expectedCartTotal)));
 		// waiting until text to be present in cart 
 		// string to string
+		
 	}
 }
