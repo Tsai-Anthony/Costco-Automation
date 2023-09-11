@@ -4,7 +4,7 @@
 - Our team will be using JAVA on automating ==> https://www.costco.com/ 🤠
 
 
-src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img 
+<a href="https://www.java.com" target="_blank" rel="noreferrer">
 
 
 
