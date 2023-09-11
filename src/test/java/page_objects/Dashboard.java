@@ -98,6 +98,6 @@ public class Dashboard {
 	}
 
 	public void navigateToLocationsPage() {
-
+		locationLink.click();
 	}
 }
